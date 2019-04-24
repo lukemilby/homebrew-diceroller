@@ -2,12 +2,12 @@
 class Diceroller < Formula
   desc "Deliver Go binaries as fast and easily as possible"
   homepage "https://derp.com"
-  url "https://github.com/lukemilby/homebrew-diceroller/releases/download/v0.1.3/homebrew-diceroller_0.1.3_Darwin_x86_64.tar.gz"
+  url "https://github.com/lukemilby/homebrew-diceroller/releases/download/v0.1.3/diceroller_0.1.3_Darwin_x86_64.tar.gz"
   version "0.1.3"
-  sha256 "64b5c72f6f339a0e2ab7fd09da1fa73ca7cc436230ec3fda29cc71750ae528ba"
+  sha256 "57f107cc7a78abdcc5ae5d342900f03982fb574f476e8067f32a6774967b0aa2"
 
   def install
-    bin.install "homebrew-diceroller"
+    bin.install "diceroller"
   end
 
   test do
