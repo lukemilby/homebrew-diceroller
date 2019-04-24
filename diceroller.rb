@@ -4,9 +4,13 @@ class Diceroller < Formula
   homepage "https://derp.com"
   url "https://github.com/lukemilby/homebrew-diceroller/releases/download/v0.1.3/homebrew-diceroller_0.1.3_Darwin_x86_64.tar.gz"
   version "0.1.3"
-  sha256 "b56892962fefc8f185aa0671a48081d5492d49947aca4fbf761fcd1e141d46b3"
+  sha256 "daa358c91b22b846a56eefde9af5567e5e7a51307b6061cdd9b9d1b0c7997132"
 
   def install
     bin.install "diceroller"
+  end
+
+  test do
+    system "#{bin}/diceroller"
   end
 end
